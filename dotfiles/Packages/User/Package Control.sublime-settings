@@ -1,0 +1,20 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"DocBlockr",
+		"Emmet",
+		"JsFormat",
+		"Keymaps",
+		"Markdown Preview",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimePythonIDE",
+		"Theme - Flatland",
+		"Theme - Soda"
+	]
+}
