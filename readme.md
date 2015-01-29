@@ -4,30 +4,30 @@
 
 > **NOTE**: This tutorial is meant for Mac users, utilizing HTML, CSS, and JavaScript/jQuery.
 
-Be sure to [setup](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/#customizing-sublime-text-3) the `subl` ([source](http://www.sublimetext.com/docs/3/osx_command_line.html)) command line tool, which can be used to open a single file or an entire project directory of files and folders, before moving on.
+Be sure to [set up](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/#customizing-sublime-text-3) the `subl` ([source](http://www.sublimetext.com/docs/3/osx_command_line.html)) command line tool, which can be used to open a single file or an entire project directory of files and folders, before moving on.
 
 ## Keyboard Shortcuts
 
 Goal: Never take your hands off the keyboard!
 
-1. **Command Palete** (*CMD-SHIFT-P*) - Accesses the all-powerful *[Command Palette](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/command_palette.html)*, where you can run toolbar actions - setting the code syntax, accessing package control, renaming a file, etc..
+1. **Command Palette** (*CMD-SHIFT-P*) - Accesses the all-powerful *[Command Palette](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/command_palette.html)*, where you can run toolbar actions - setting the code syntax, accessing package control, renaming a file, etc..
 
-    ![Command Palete](img/command_palete.png)
+    ![Command Palette](img/command_palette.png)
 
-1. **Goto Anything** (*CMD-SHIFT-P*) - Searches for a file within the current project or a line or defintion in the current file. It's fuzzy so you don't need to match the name exactly.
-    - `@` - Defintion - class, method, function
+1. **Goto Anything** (*CMD-SHIFT-P*) - Searches for a file within the current project or a line or definition in the current file. It's fuzzy so you don't need to match the name exactly.
+    - `@` - Definition - class, method, function
     - `:` - Line #
 1. **Distraction Free Mode** (*CMD-CTRL-SHIFT-F*) - Eliminates distractions!
 
-    ![Command Palete](img/distraction_free.png)
+    ![Command Palette](img/distraction_free.png)
 
 1. **Hide/Show the Sidebar** (*CMD-K*, *CMD-B*) - Toggles the sidebar.
-1. **Comment Your Code** (*CMD-/*) - Highlight the code you want to comment out, then comment it out. If you do not hightlight anything, this command will comment out the current line.
+1. **Comment Your Code** (*CMD-/*) - Highlight the code you want to comment out, then comment it out. If you do not highlight anything, this command will comment out the current line.
 1. **Highlight an entire line** (*CMD-L*)
 1. **Delete an entire line** (*CMD-SHIFT-K)
 1. **Multi-Edit** (*CMD+D*) - Simply select the word you want to edit, and press *CMD-D* repeatedly until you have selected all the words you want to change/update/etc..
 
-Grab the cheatsheet - [HTML](sublime_text_keyboard_shortcuts.html) or [PDF](sublime_text_keyboard_shortcuts.pdf).
+Grab the cheat sheet - [HTML](sublime_text_keyboard_shortcuts.html) or [PDF](sublime_text_keyboard_shortcuts.pdf).
 
 ## Configuration
 
@@ -40,7 +40,7 @@ Config settings can be set at the global/default-level or by user, project, pack
 - *Packages/<syntax>/<syntax>.sublime-settings*
 - *Packages/User/<syntax>.sublime-settings*
 
-**For the most part, always apply your custom configuration settings to at the *User* level, since they will not get overriden when you update Sublime and/or a specific package.**
+**For the most part, always apply your custom configuration settings to at the *User* level, since they will not get overridden when you update Sublime and/or a specific package.**
 
 1. **Base User Settings**: *Sublime Text 3 > Preferences > Settings – User*
 1. **Package User Specific**: *Sublime Text 3 > Preferences > Package Settings > PACKAGE NAME > Settings – User*
@@ -67,7 +67,7 @@ Add this to *Sublime Text 3 > Preferences > Settings – User*.
 
 1. We convert tabs to two spaces. Now when you press tab, it actually indents two spaces. This is perfect for HTML, CSS, and JavaScript. This creates cleaner, easier to read code.
 1. The ruler is a simple reminder to keep your code concise (for readability).
-1. We added white space markers and trimmed any trailing (err, unncessary) white space on save.
+1. We added white space markers and trimmed any trailing (err, unnecessary) white space on save.
 1. Finally, word wrapping is automatically applied
 
 What else can you update? Start with the **theme**.
@@ -90,11 +90,11 @@ Want more features? There's a ton of extensions used to, well, extend ST3's func
 
 ### Package Control
 
-[Package Control](https://packagecontrol.io/) *must* be installed manually, then, once installed, you can use it to install other ST3 packages. To install, copy the Python code for found [here](https://packagecontrol.io/installation). Then open your console (*CTRL-`*), paset the code, press ENTER. Then Reboot ST3.
+[Package Control](https://packagecontrol.io/) *must* be installed manually, then, once installed, you can use it to install other ST3 packages. To install, copy the Python code for found [here](https://packagecontrol.io/installation). Then open your console (*CTRL-`*), paste the code, press ENTER. Then Reboot ST3.
 
-![Command Palete](img/package_control.png)
+![Command Palette](img/package_control.png)
 
-Now you can easily install packages by entering the *Command Palete* (remember the keyboard shortcut?).
+Now you can easily install packages by entering the *Command Palette* (remember the keyboard shortcut?).
 
 1. Type "install". Press ENTER when *Package Control: Install Package* is highlighted
 1. Search for a package. Boom!
@@ -105,7 +105,7 @@ Let's look at some packages...
 
 [SublimeLinter](http://www.sublimelinter.com/en/latest/) is a framework for Sublime Text linters.
 
-After you install the base package, you need to install linters seperately via Package Control, which are easily searchable as they adhere to the following naming syntax - *SublimeLinter-[linter_name]*. You can view all the official linters [here](https://github.com/SublimeLinter).
+After you install the base package, you need to install linters separately via Package Control, which are easily searchable as they adhere to the following naming syntax - *SublimeLinter-[linter_name]*. You can view all the official linters [here](https://github.com/SublimeLinter).
 
 Start with the following linters:
 
@@ -118,11 +118,11 @@ Start with the following linters:
 
 [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements) extends the number of menu options in the sidebar, adding file explorer actions - i.e., Copy, Cut, Paste, Delete, Rename. This package also adds the same commands/actions to the Command Palette.
 
-![Command Palete](img/sidebar_enhancements.png)
+![Command Palette](img/sidebar_enhancements.png)
 
 ### JsFormat
 
-[JsFormat](https://packagecontrol.io/packages/JsFormat) beautifies your JavaSript/jQuery Code!
+[JsFormat](https://packagecontrol.io/packages/JsFormat) beautifies your JavaScript/jQuery Code!
 
 Press *CTRL-ALT-F* to turn this mess...
 
@@ -161,7 +161,7 @@ function refactorU (student) {
 }
 ```
 
-Now add an opening comment block - `/**` - and as soon as you press tab, it will create a dummy-documentation-comment automaticaly.
+Now add an opening comment block - `/**` - and as soon as you press tab, it will create a dummy-documentation-comment automatically.
 
 ```javascript
 /**
@@ -222,4 +222,3 @@ Check the official [docs](http://docs.emmet.io/abbreviations/) to see all the ex
 1. [Package Manager documentation](https://packagecontrol.io/docs)
 1. [Unofficial documentation reference](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/reference.html)
 1. [Setting Up Sublime Text 3 for Full Stack Python Development](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/) - my other ST3 post
-
