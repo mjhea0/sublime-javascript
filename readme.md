@@ -24,7 +24,7 @@ Goal: Never take your hands off the keyboard!
 1. **Hide/Show the Sidebar** (*CMD-K*, *CMD-B*) - Toggles the sidebar.
 1. **Comment Your Code** (*CMD-/*) - Highlight the code you want to comment out, then comment it out. If you do not highlight anything, this command will comment out the current line.
 1. **Highlight an entire line** (*CMD-L*)
-1. **Delete an entire line** (*CMD-SHIFT-K)
+1. **Delete an entire line** (*CMD-SHIFT-K*)
 1. **Multi-Edit** (*CMD+D*) - Simply select the word you want to edit, and press *CMD-D* repeatedly until you have selected all the words you want to change/update/etc..
 
 Grab the cheat sheet - [HTML](sublime_text_keyboard_shortcuts.html) or [PDF](sublime_text_keyboard_shortcuts.pdf).
@@ -35,10 +35,10 @@ You can customize *almost* anything in ST3 by updating the config settings.
 
 Config settings can be set at the global/default-level or by user, project, package, and/or syntax. Setting files are [loaded](http://www.sublimetext.com/docs/3/settings.html) in the following order:
 
-- *Packages/Default/Preferences.sublime-settings*
-- *Packages/User/Preferences.sublime-settings*
-- *Packages/<syntax>/<syntax>.sublime-settings*
-- *Packages/User/<syntax>.sublime-settings*
+- `Packages/Default/Preferences.sublime-settings`
+- `Packages/User/Preferences.sublime-settings`
+- `Packages/<syntax>/<syntax>.sublime-settings`
+- `Packages/User/<syntax>.sublime-settings`
 
 **Always apply your custom configuration settings to at the *User* level, since they will not get overridden when you update Sublime and/or a specific package.**
 
