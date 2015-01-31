@@ -2,9 +2,9 @@
 
 [Sublime Text 3](http://www.sublimetext.com/3) (ST3) is a powerful editor just as it is. But if you want to step up your game, you need to take advantage of all that ST3 has to offer by learning the keyboard shortcuts and customizing the editor to meet your individual needs...
 
-> **NOTE**: This tutorial is meant for Mac users, utilizing HTML, CSS, and JavaScript/jQuery.
+> **NOTE**: This tutorial is meant for Mac OS X users, utilizing HTML, CSS, and JavaScript/jQuery.
 
-Be sure to [set up](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/#customizing-sublime-text-3) the `subl` ([source](http://www.sublimetext.com/docs/3/osx_command_line.html)) command line tool, which can be used to open a single file or an entire project directory of files and folders, before moving on.
+Be sure to [set up](https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/#customizing-sublime-text-3) the `subl` command line tool, which can be used to open a single file or an entire project directory of files and folders, before moving on.
 
 ## Keyboard Shortcuts
 
@@ -14,7 +14,7 @@ Goal: Never take your hands off the keyboard!
 
     ![Command Palette](img/command_palette.png)
 
-1. **Goto Anything** (*CMD-SHIFT-P*) - Searches for a file within the current project or a line or definition in the current file. It's fuzzy so you don't need to match the name exactly.
+1. **Goto Anything** (*CMD-P*) - Searches for a file within the current project or a line or definition in the current file. It's fuzzy so you don't need to match the name exactly.
     - `@` - Definition - class, method, function
     - `:` - Line #
 1. **Distraction Free Mode** (*CMD-CTRL-SHIFT-F*) - Eliminates distractions!
@@ -40,7 +40,7 @@ Config settings can be set at the global/default-level or by user, project, pack
 - *Packages/<syntax>/<syntax>.sublime-settings*
 - *Packages/User/<syntax>.sublime-settings*
 
-**For the most part, always apply your custom configuration settings to at the *User* level, since they will not get overridden when you update Sublime and/or a specific package.**
+**Always apply your custom configuration settings to at the *User* level, since they will not get overridden when you update Sublime and/or a specific package.**
 
 1. **Base User Settings**: *Sublime Text 3 > Preferences > Settings – User*
 1. **Package User Specific**: *Sublime Text 3 > Preferences > Package Settings > PACKAGE NAME > Settings – User*
